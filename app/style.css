@@ -1,0 +1,198 @@
+/* built by nick gray 2016*/
+
+img {
+    width: 100%;
+}
+
+input
+{
+    width: 100%;
+    font-size: 30px;
+    color: #dd2930;
+    background-color: #f4f4f4;
+}
+
+#info
+{
+    font-size: 20px;
+    background-color: #ddd;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;    
+}
+
+.ReactTabs__TabList
+{
+    background-color: rgba(0, 0, 0, 0.32);
+    border: none;
+    width: 100%;
+}
+
+.contact-card 
+{
+	float:left;
+	width:50%;
+    margin-bottom:40px;
+    border: 2px solid grey;
+	background: -webkit-radial-gradient( #ffffff, #ffffff, #c7c7c7); 
+	background: -o-radial-gradient( #ffffff, #ffffff, #c7c7c7); 
+	background: -moz-radial-gradient( #ffffff, #ffffff, #c7c7c7);
+	background: radial-gradient( #ffffff, #ffffff, #c7c7c7); 
+}
+
+@media (min-width: 768px) 
+{
+.container {
+         width:100%;
+	 }
+}
+
+@media (max-width: 980px) 
+{
+    .contact-card {
+		float:none !important;
+		font-size:30px;
+        width:100%;
+	}
+	#info,.ReactTabs__TabList, button{
+		font-size: 50px!important;
+	}
+	th {
+		font-size:40px!important;
+	}
+    
+    td{
+		font-size:40px!important;
+	}
+	input {
+		font-size: 50px!important;
+	}
+}
+
+table{
+    overflow:scroll;
+    
+}
+
+form 
+{
+    width: 100%;    
+}
+
+body
+{
+	margin:20px;
+	background: -webkit-radial-gradient( #3F9CBA,#24576e, #153346); 
+	background: -o-radial-gradient( #3F9CBA, #24576e, #153346); 
+	background: -moz-radial-gradient( #3F9CBA, #24576e, #153346);
+	background: radial-gradient( #3F9CBA, #24576e, #153346); 
+    min-height:1400px;
+    overflow:scroll;
+}
+
+.right-content
+{
+	border-left: 3px solid #8b8a88;
+	margin-top:20px;
+	padding-left:20px;
+}
+.right-content span,
+.contact-title
+{
+	font-weight:bold;
+}
+.content 
+{
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.first-name{
+	color:red;
+}
+.full-name 
+{
+  position: relative;
+  display: inline-block;
+  font-size: 35px;
+}
+.full-name:after,
+.full-name:before 
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  left: 0px;
+  transform: scaleY(-1);
+  transform-origin: bottom;
+}
+.full-name:after 
+{
+  content: attr(data-content);
+}
+.full-name:before 
+{
+  content: '';
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0.9) 70%);
+  z-index: 2;
+}
+
+.row 
+{
+    margin-right:0px !important;
+    margin-left:0px !important;
+}
+
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+.navbar-default
+{
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
+.navbar-default .navbar-brand
+{
+    color: #777;
+}
+
+table
+{
+    background-color:  rgba(244, 244, 244, 0.07);
+    color: #f4f4f4;
+}
+
+table > thead >tr  
+{
+    font-size:16px!important;
+}
+
+#downloadReport 
+{
+    display:none;
+    color: #b73333;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#downloadReport:hover {
+    text-decoration: none;
+} 
+
+.ReactTabs__Tab
+{
+    color: #eee;
+}
