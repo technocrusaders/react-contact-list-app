@@ -1,0 +1,46 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "createClass": "createClass",
+      "pragma": "React",
+      "version": "15.0"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+  "name": "contact-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "browser": "^0.2.6",
+    "browserify": "^13.1.0",
+    "express": "^3.21.2",
+    "guid": "0.0.12",
+    "gulp": "^3.9.1",
+    "html-pdf": "^2.1.0",
+    "react": "^15.3.2",
+    "react-addons": "^0.9.1-deprecated",
+    "react-dom": "^15.3.2",
+    "react-fetch": "0.0.9",
+    "react-tabs": "^0.8.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
