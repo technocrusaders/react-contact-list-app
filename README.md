@@ -1,6 +1,8 @@
 A ReactJS Contact List Demo made by  Nick Gray 20016
 website: technocrusaders.com
  
+Note if using windows, please checkout the window path bug brunch, as there is an issue building jsx sub components with paths on windows with gulp.
+
 Install:
 
 1. npm i
