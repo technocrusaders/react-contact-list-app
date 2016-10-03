@@ -19,6 +19,6 @@ Note this app uses  libfontconfig1 ( to run reports) install if needed by:
 - This code runs on port 3000, change that if need be in server/server file
 
 
-Conact nick@technocrusaders.com, if you have any questions.
+Contact nick@technocrusaders.com, if you have any questions.
 
 Good Luck!
