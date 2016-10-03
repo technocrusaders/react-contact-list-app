@@ -1,4 +1,4 @@
-A ReactJS Conact List Demo made by  Nick Gray 20016
+A ReactJS Contact List Demo made by  Nick Gray 20016
 website: technocrusaders.com
  
 Install:
