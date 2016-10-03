@@ -1,3 +1,4 @@
+/*
 var React = require("react");
 var ReportRow = require("./ReportRow.jsx"); 
 
@@ -93,3 +94,4 @@ module.exports = React.createClass({
         );
     }
 });
+*/

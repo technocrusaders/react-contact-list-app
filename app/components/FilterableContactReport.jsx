@@ -1,3 +1,4 @@
+/*
 var React = require("react");
 var SearchBar = require("./SearchBar.jsx"); 
 var ReportTable = require("./ReportTable.jsx"); 
@@ -64,3 +65,4 @@ module.exports = React.createClass({
         );
     },
 });
+*/

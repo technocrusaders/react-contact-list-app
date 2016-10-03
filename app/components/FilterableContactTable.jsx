@@ -1,4 +1,4 @@
-var React = require("react");
+/*var React = require("react");
 var SearchBar = require("./SearchBar.jsx");
 var ContactTable = require("./ContactTable.jsx");
 
@@ -62,3 +62,4 @@ componentDidMount: function() {
     },
     
 });
+*/

@@ -1,3 +1,4 @@
+/*
 var React = require("react");
 var ReactTabs = require("react-tabs");
 var Tab = ReactTabs.Tab;  
@@ -29,4 +30,4 @@ module.exports = React.createClass({
      </Tabs>
     );
   }
-});
+});*/

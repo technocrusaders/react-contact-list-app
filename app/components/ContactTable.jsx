@@ -1,3 +1,4 @@
+/*
 var React = require("react");
 var ContactRow = require("./ContactRow.jsx");
 
@@ -30,3 +31,4 @@ module.exports = React.createClass({
         );
       }
 });
+*/
