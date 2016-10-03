@@ -1,6 +1,6 @@
 var React = require("react");
-var SearchBar = require("c:\\contact-list\\app\\components\\SearchBar.jsx"); 
-var ReportTable = require("c:\\contact-list\\app\\components\\ReportTable.jsx"); 
+var SearchBar = require("./SearchBar.jsx"); 
+var ReportTable = require("./ReportTable.jsx"); 
 
 module.exports = React.createClass({
     request: null,

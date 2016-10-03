@@ -1,5 +1,5 @@
 var React = require("react");
-var ContactRow = require("c:\\contact-list\\app\\components\\ContactRow.jsx"); 
+var ContactRow = require("./ContactRow.jsx"); 
 
 module.exports = React.createClass({
     render: function() {

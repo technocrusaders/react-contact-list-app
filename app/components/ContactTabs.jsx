@@ -4,9 +4,9 @@ var Tab = ReactTabs.Tab;
 var Tabs = ReactTabs.Tabs;  
 var TabList = ReactTabs.TabList;  
 var TabPanel = ReactTabs.TabPanel;                
-var FilterableContactReport = require("c:\\contact-list\\app\\components\\FilterableContactReport.jsx");
-var FilterableContactTable = require("c:\\contact-list\\app\\components\\FilterableContactTable.jsx");
-                               // C:\contact-list\app\components
+var FilterableContactReport = require("./FilterableContactReport.jsx");
+var FilterableContactTable = require("./FilterableContactTable.jsx");
+                              
 
 module.exports = React.createClass({
     handleSelect: function (index, last) {

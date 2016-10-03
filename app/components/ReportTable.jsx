@@ -1,5 +1,5 @@
 var React = require("react");
-var ReportRow = require("c:\\contact-list\\app\\components\\ReportRow.jsx"); 
+var ReportRow = require("./ReportRow.jsx"); 
 
 module.exports = React.createClass({
     exportReport: function(event) {
