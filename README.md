@@ -1,6 +1,8 @@
-A ReactJS Contact List Demo made by  Nick Gray 20016
-website: technocrusaders.com
- 
+!!!!! DONT USE THIS, this was my very first and old unclean code !!!!!!!!
+however it worked last time I loaded it up, i'll be uploading
+a new sample react app soon...
+
+
 Install:
 -------------
 1. npm i -g gulp bower nodemon
