@@ -35,6 +35,7 @@
     "guid": "0.0.12",
     "gulp": "^3.9.1",
     "html-pdf": "^2.1.0",
+    "nodemon": "^1.17.1",
     "react": "^15.3.2",
     "react-addons": "^0.9.1-deprecated",
     "react-dom": "^15.3.2",
